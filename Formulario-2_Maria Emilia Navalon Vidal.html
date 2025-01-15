@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- Lenguaje de Marcas -->
+<!-- Maria Emilia Navalon Vidal -->
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Preferencias</legend>
+                    <input type="checkbox" name="asignatura" value="asignaturageografia">
+                    <label for="asignatura">Geografía</label>
+                    <input type="checkbox" name="asignatura" value="asignaturalengua">
+                    <label for="asignatura">Lengua</label>
+                    <input type="checkbox" name="asignatura" value="asignaturamatematicas">
+                    <label for="asignatura">Matemáticas</label>
+                    <input type="checkbox" name="asignatura" value="asignaturahistoria">
+                    <label for="asignatura">Historia</label>
+                    
+                    <br>
+                    <textarea id="comentario" name="comentario" rows="8" cols="56" placeholder="Escriba aquí, por favor"></textarea>
+                    <br>
+
+                    <label for="dni">DNI:</label>
+                    <input type="text" if="dni" name="dni" min="9">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" if="nombre" name="nombre">
+                     
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" if="apellidos" name="apellidos">
+
+                    <label for="email">Email:</label>
+                    <input type="email" if="email" name="email">
+
+                    <br>
+                    <label for="datemin">Elija una fecha:</label>
+                    <input type="date" id="datemin" name="datemin">
+
+                    <br>
+                    <label for="favcolor">Eliga un color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#000000">
+
+                    <br>
+                    <label for="appt">Elija una hora:</label>
+                    <input type="time" id="appt" name="appt">
+
+                    <br>
+                    <select name="velocidad" >
+                        <option value="100_mbits">100 Mbits</option>
+                        <option value="1000_mbits">1000 Mbits</option>
+                    </select>
+
+                    <br>
+                    <input type="radio" name="lenguaje»" value="lenguajepython">
+                    <label for="lenguajepython">Phyton</label>
+                    <input type="radio" name="lenguaje»" value="lenguajehtml">
+                    <label for="lenguajehtml">HTML</label>
+                    <input type="radio" name="lenguaje»" value="lenguajevisual_basic">
+                    <label for="lenguajevisual_basic">Visual Basic</label>
+                    <input type="radio" name="lenguaje»" value="lenguajejava">
+                    <label for="lenguajejava">Java</label>
+
+                    <br>
+                    <label for="mifichero">Elija un fichero:</label>
+                    <input type="file" id="mifichero" name="mifichero">
+            </fieldset>
+
+            <fieldset>
+                <legend>Rellene las opciones siguientes</legend>
+                    <input type="radio" name="hardware" value="hardwaretarjeta_aceleradora">
+                    <label for="hardwaretarjeta_aceleradora">Tarjeta aceleradora</label>
+                    <br>
+                    <input type="radio" name="hardware" value="hardwaremonitor_led">
+                    <label for="hardwaremonitor_led">Monitor LED</label>
+                    <br>
+                    <input type="radio" name="hardware" value="hardwaressd»">
+                    <label for="hardwaressd»">SSD</label>
+
+                    <br>
+                    <label for="dni">DNI:</label>
+                    <input type="text" if="dni" name="dni" min="9">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" if="nombre" name="nombre">
+                     
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" if="apellidos" name="apellidos">
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="number" if="telefono" name="telefono">
+
+                    <br>
+                    <label for="favcolor">Eliga un color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#000000">
+
+                    <br>
+                    <input type="checkbox" name="asignatura" value="asignaturamatematicas">
+                    <label for="asignatura">Matemáticas</label><br>
+
+                    <!-- A partir de aqui la imagen de la actividad se corta, pero el enunciado sigue así que yo he continuado haciendo lo que pedia -->
+
+                    <input type="checkbox" name="asignatura" value="asignaturahistoria">
+                    <label for="asignatura">Historia</label><br>
+                    <input type="checkbox" name="asignatura" value="asignaturageografia">
+                    <label for="asignatura">Geografía</label><br>
+                    <input type="checkbox" name="asignatura" value="asignaturalengua">
+                    <label for="asignatura">Lengua</label>
+
+                    <br>
+                    <label for="mifichero">Elija un fichero:</label>
+                    <input type="file" id="mifichero" name="mifichero" multiple>
+
+                    <br>
+                    <textarea id="comentario" name="comentario" rows="7" cols="57" placeholder="Escriba aquí, por favor"></textarea>
+                    
+                    <br>
+                    <select name="lenguaje" >
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="html">HTML</option>
+                        <option value="visual_basic">Visual Basic</option> 
+                    </select>
+
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
